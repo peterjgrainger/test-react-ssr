@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test"
+  description: "test"
+  annotations:
+    github.com/project-slug: peterjgrainger/test-react-ssr
+    backstage.io/techdocs-ref: url:https://github.com/peterjgrainger/test-react-ssr
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "peterjgrainger"
